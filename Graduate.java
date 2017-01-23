@@ -25,7 +25,7 @@ public class Graduate extends Student {
                 && obj.age == this.age && obj.grade == this.grade) {
             return true;
         }
-        return false;
+        else return false;
     }
 
 
